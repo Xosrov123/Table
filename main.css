@@ -1,0 +1,18 @@
+.bi-trash-fill {
+    pointer-events: none;
+}
+
+
+.xizey{
+    transform: translateX(100%);
+    animation: 1s cavidsurusdurdu forwards;
+}
+
+@keyframes cavidsurusdurdu {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
